@@ -55,7 +55,6 @@ a {
 #footer {
   font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 1.5em;
-    background-color: aliceblue;
       clear: both;
       margin-top: -200px;
       bottom: 0;
@@ -157,10 +156,11 @@ html {
   color: white; /* White text color */
 }
 
+.git {width: 45%; background-color: #6b2ea5;}
 .html {width: 90%; background-color: #04AA6D;} /* Green */
 .css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.js {width: 25%; background-color: #f44336;} /* Red */
+.php {width: 30%; background-color: #808080;} /* Dark Grey */
 /*projects*/
 
 
@@ -288,13 +288,12 @@ html {
   justify-content: center;
   width: 100%;
   max-width: 980px;
-  margin-top: 4rem;
   flex-wrap: wrap;
+  
 }
 
 .contact-details {
   font-size: 1.4rem;
-  text-shadow: 1px 1.5px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
 }
 
@@ -306,7 +305,8 @@ html {
 /*media queries*/
 
 @media (max-width: 28.75em) {
-  
+  .contact-details {
+    font-size: 1.0rem;
 }
 
 
@@ -423,4 +423,5 @@ line-height: 30px;
 
   @media (max-width: 900px){
   
+}
 }
