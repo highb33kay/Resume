@@ -11,3 +11,6 @@ menuIcon.addEventListener('click', function () {
     slideoutMenu.style.pointerEvents = 'auto';
   }
 })
+
+var element = document.getElementById('element-to-print');
+html2pdf(element);
