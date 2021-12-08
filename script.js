@@ -13,4 +13,6 @@ menuIcon.addEventListener('click', function () {
 })
 
 var element = document.getElementById('element-to-print');
+element.addEventListener('click', function (){
 html2pdf(element);
+}
